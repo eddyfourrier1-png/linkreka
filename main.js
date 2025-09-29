@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   googleLogin.addEventListener('click', () => {
-    window.location.href = '/auth/google';
+    // Rediriger vers le backend HTTPS local pour l'authentification
+    window.location.href = 'https://localhost:3000/auth/google';
   });
 });
 
